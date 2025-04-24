@@ -1,0 +1,100 @@
+
+  
+  header {
+    height: 8%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(33, 112, 112);
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+  }
+  
+  header h1 {
+    letter-spacing: 8px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+  }
+  
+  .gallery {
+    padding: 20px;
+  }
+  
+  .rimg {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .rimg img {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+  
+  .rimg img:hover {
+    transform: scale(1.05);
+  }
+  
+  .navi1 {
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+  }
+  
+  .navi-img {
+    width: 70%;
+    max-height: 90%;
+    border-radius: 5%;
+    margin-bottom: 20px;
+  }
+  
+  .cls-btn {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    top: 20px;
+    right: 40px;
+    z-index: 1001;
+  }
+  
+  .navi2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .navi2 button {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
